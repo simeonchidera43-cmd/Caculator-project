@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caculator Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>
+    Caculator Project
+  </h1>
+
+  <div class="container">
+    <div class="white">
+
+    <div>
+    <input class="input-box js-input-element" type="text" placeholder="0" id="display" disabled>
+
+
+  </div>
+
+  <p class="grid">
+    <button class="box" onclick="
+      clearDisplay()
+      
+      " oncli>AC</button>
+
+    <button class="box" onclick="
+     
+    ">+/-</button>
+
+    <button class="box" onclick="
+      press('%')
+    ">%</button>
+
+    <button class="box-color" onclick="
+    press('/')
+    ">/</button>
+  </p>
+
+   <p class="grid">
+    <button class="box" onclick="
+        press('7')
+      ">7</button>
+
+    <button class="box" onclick="
+      press('8')
+    ">8</button>
+
+    <button class="box" onclick="
+      press('9')
+    ">9</button>
+
+    <button class="box-color" onclick="
+      press('*')
+    ">X</button>
+  </p>
+
+   <p class="grid">
+    <button class="box" onclick="
+        press('4')
+
+      ">4</button>
+
+    <button class="box" onclick="
+      press('5')
+    ">5</button>
+
+    <button class="box" onclick="
+      press('6')
+    ">6</button>
+
+    <button class="box-color" onclick="
+      press('-')
+    ">-</button>
+  </p>
+
+   <p class="grid">
+    <button class="box" onclick="
+        press('1')
+      ">1</button>
+
+    <button class="box" onclick="
+      press('2')
+    ">2</button>
+
+    <button class="box" onclick="
+    press('3')
+    ">3</button>
+
+    <button class="box-color" onclick="
+      press('+')
+    ">+</button>
+  </p>
+
+   <p class="grid">
+    <button class="box" onclick="
+    press('*')
+      ">X</button>
+
+    <button class="box" onclick="
+      press('0')
+    ">0</button>
+
+    <button class="box" onclick="
+      press('.')
+    ">.</button>
+
+    <button class="box-color" onclick="
+      calculate()
+    
+    ">=</button>
+  </p>
+
+  <p class="result">
+
+  </p>
+  </div>
+ </div>
+
+ <script src="script.js"></script>
+  
+</body>
+</html>
